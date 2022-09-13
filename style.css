@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("img/green-background.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-weight: 700;
+}
+
+.question {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+h2:nth-child(1) {
+    font-style: italic;
+}
+
+.question button {
+    padding: 10px 60px;
+    background-color: goldenrod;
+    color: rgb(233, 228, 220);
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px;
+}
