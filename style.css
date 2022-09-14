@@ -1,7 +1,7 @@
 body {
     background-color: grey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("img/green-background.jpg");
+    background-image: url("img/background1.jpg");
     background-size: cover;
 }
 
@@ -29,4 +29,12 @@ h2:nth-child(1) {
     border-radius: 5px;
     cursor: pointer;
     border: 1px;
+    margin: 0px 100px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
 }
