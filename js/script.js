@@ -27,7 +27,7 @@ function getRandom(min, max) {
 //start the game
 function startGame() {
     if (sum <= 20) {
-        message = "Do you want to draw a new card?"
+        message = "You are out of the game!"
     } else if (sum === 21) {
         message = "You've got Blackjack!"
         hasBlackJack = true

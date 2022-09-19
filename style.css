@@ -1,7 +1,6 @@
 body {
-    background-color: grey;
+    background-color: rgb(72, 111, 56);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("img/background1.jpg");
     background-size: cover;
 }
 
@@ -37,4 +36,39 @@ h2:nth-child(1) {
     flex-direction: column;
     gap: 10px;
     flex: 1;
+    margin: 0px 30%;
+}
+
+.rule {
+    color: white;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+@media(max-width:1078px) {
+    .button {
+        margin: 0px 25%;
+
+    }
+}
+
+@media(max-width:866px) {
+    .button {
+        margin: 0px 20%;
+
+    }
+}
+
+
+@media(max-width:724px) {
+    .button {
+        margin: 0px 15%;
+
+    }
+}
+
+@media(max-width:623px) {
+    .button {
+        margin: 0px 0px;
+    }
 }
